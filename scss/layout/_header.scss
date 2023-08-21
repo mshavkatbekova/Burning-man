@@ -1,0 +1,47 @@
+.header__container {
+  padding-top: 6.4rem;
+  padding-bottom: 7.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav__container {
+  display: none;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-size: 2.4rem;
+}
+
+.sitenav__list {
+  display: flex;
+  gap: 4.2rem;
+}
+
+.sitenav__link {
+  color: $dark-grey-color;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.white__btn {
+  color: $dark-grey-color;
+}
+
+.hero__image {
+  position: absolute;
+  right: 96px;
+  bottom: 0;
+}
+
+@media screen and (max-width: 780px) {
+  .sitenav__link {
+    display: none;
+  }
+
+  .header__nav__container {
+    display: block;
+  }
+}
