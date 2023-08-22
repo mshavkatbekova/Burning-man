@@ -1,29 +1,5 @@
-.btn {
-  padding: 1.8rem 2.5rem;
-  font-size: 1.5rem;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  line-height: normal;
-  border-radius: 8px;
-}
-
-.white__btn {
-  background-color: $white-color;
-  color: $dark-grey-color;
-  border: 0;
-}
-
-.white__btn:hover {
-  background-color: $light-peach-color;
-  color:$white-color;
-}
-
-.peach__btn{
-  background-color: $peach-color;
-  color: $white-color;
-}
-
-.peach__btn:hover{
-  background-color: $light-peach-color;
+.white__btn{
+color: $white-color;
+background-color: none;
+border: 1px solid $white-color;
 }

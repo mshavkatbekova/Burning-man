@@ -1,63 +1,11 @@
-.footer {
-  background-color: $black-color;
-}
-
-.footer__container {
-  padding-top: 18rem;
-  padding-bottom: 7.2rem;
-  background-color: $black-color;
+.footer__content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  gap: 5.5rem;
 }
-
-.footer__sitenav__link {
-  color: $white-color;
-}
-
-.footer__line {
-  border: none;
-  height: 1px;
-  flex-shrink: 0;
-  opacity: 0.1;
-  background-color: $white-color;
-  margin-top: 40px;
-}
-
-.footer__wrapper__container {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 3.1rem;
-  align-items: flex-end;
-}
-
-.footer__text {
-  display: flex;
-  gap: 12rem;
-  color: $white-color;
-}
-.first__description {
-  opacity: 0.5;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
-}
-.second__description {
-  opacity: 0.5;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
-}
-.footer__wrapper__container {
-  margin-bottom: 7.2rem;
-}
-.footer__social__list {
-  display: flex;
-  text-align: center;
-  gap: 16px;
-}
-
-.footer__social__item a:hover svg path {
-  fill: $light-peach-color;
+.footer__description {
+  font-family: open-sans;
+  color: $black-color;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 8rem;
 }
